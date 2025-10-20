@@ -1,1 +1,1 @@
-# hey-connectme
+# hey-trainer-client-app

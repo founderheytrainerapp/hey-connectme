@@ -1,0 +1,94 @@
+npx create-expo-app@latest ./
+npx expo start
+npx expo install nativewind tailwindcss@^3.4.17 react-native-reanimated@3.16.2 react-native-safe-area-context
+npx tailwindcss init // add details
+add babel.config.js
+add metro.config.js
+
+//checking errors
+npm run -s tsc --silent --noEmit
+npx tsc --noEmit
+npm test --silent -- --runInBand
+
+
+//removing items
+Remove-Item -Recurse -Force node_modules, .expo, .expo-shared
+npx rimraf android  
+npx rimraf android  ,node_modules, .expo, .expo-shared,package-lock.json   
+
+npm cache clean --force
+//crash report
+adb logcat -d -v time | findstr "AndroidRuntime" > last_crash.txt  
+adb logcat -d -v time | *:S ReactNative:V ReactNativeJS:V > last_crash.txt  
+
+npx expo run:android -d  
+ npx expo install @shopify/flash-list@1.7.6
+  expo-av@15.1.6
+  expo-image@2.3.0        eas init
+
+
+//Eas and Expo-client 
+npm install -g eas-cli
+eas login
+eas init
+eas configure
+npm install expo-dev-client
+npx expo install expo-dev-client
+npx expo prebuild
+npm install react-native-health-connect react-native-apple-healthkit
+npx expo start --dev-client
+
+eas build --platform android --profile production
+
+
+ 1. Permissions: Edit android/app/src/main/AndroidManifest.xml
+Add  inside <manifest>:
+
+<uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+<uses-permission android:name="android.permission.BODY_SENSORS" />
+
+inside <application> tag:
+
+<uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+//GoogleFit.authorize():
+
+
+const options = {
+  scopes: [
+    Scopes.FITNESS_ACTIVITY_READ,
+    Scopes.FITNESS_SLEEP_READ,
+    Scopes.FITNESS_NUTRITION_READ,
+  ],
+};
+GoogleFit.authorize(options);
+
+// iOS Setup
+Open iOS Project in Xcode
+npx expo run:ios
+
+In Xcode:
+
+Go to project ➝ Signing & Capabilities ➝ + Capability ➝ add HealthKit.
+ios/YourAppName/Info.plist:
+
+<key>NSHealthShareUsageDescription</key>
+<string>We use HealthKit to read your health data.</string>
+<key>NSHealthUpdateUsageDescription</key>
+<string>We use HealthKit to update your health data.</string>ex 
+
+//Build for each platform:
+
+eas build -p android --profile development
+eas build -p ios --profile development
+
+//Run the App with Custom Dev Client
+
+npx expo start --dev-client
+
+// to do
+Remove nativewind dependency
+
+
+HardwareBack => hook is created not working
+productdetail sheet=> work on ui/uX   , recommendation

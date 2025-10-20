@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "416410601191",
+    "project_id": "heytrainer-470210",
+    "storage_bucket": "heytrainer-470210.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416410601191:android:4c09807fc31f021dd14442",
+        "android_client_info": {
+          "package_name": "com.heytrainer.HeyTrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416410601191-nlgct4simsjg62j8lniua669vavr5r4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heytrainer.HeyTrainer",
+            "certificate_hash": "87a3b7f868fac548fd16c065c5ad9e3f1f913931"
+          }
+        },
+        {
+          "client_id": "416410601191-c0ki5vg8k6625c00oopdo6o5ljqcmfnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8lx5-TA5bj_QPCyxX5fsm6eQWiQbnZJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416410601191-c0ki5vg8k6625c00oopdo6o5ljqcmfnl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "416410601191-k9q07mfp27rgi7if5hfd47g6vlruiq73.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.heytrainer.HeyTrainer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

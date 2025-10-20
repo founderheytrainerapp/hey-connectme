@@ -1,0 +1,20 @@
+{
+  "NODE_ENV": "development",
+  "EXPO_OS": "android",
+  "APP_VARIANT": "development",
+  "EXPO_USE_NEW_ARCHITECTURE": 0,
+  "BASE_URL": "https://api.heytrainerapp.com",
+  "PROJECT_ID": "87b4a87b-5e77-45c4-9ac8-de32ed9c38b9",
+  "EXPO_PUBLIC_RECAPTCHA_SITE_KEY": "6LceTdArAAAAAMQ7g2IuKpPeRSEtZNSGCJ12zIm_",
+
+  "FIREBASE_API_KEY": "AIzaSyA8lx5-TA5bj_QPCyxX5fsm6eQWiQbnZJU",
+  "FIREBASE_AUTH_DOMAIN": "heytrainer-470210.firebaseapp.com",
+  "FIREBASE_PROJECT_ID": "heytrainer-470210",
+  "FIREBASE_STORAGE_BUCKET": "heytrainer-470210.firebasestorage.app",
+  "FIREBASE_MESSAGING_SENDER_ID": "=416410601191",
+  "FIREBASE_APP_ID": "1:416410601191:web:600bd461d9e03343d14442",
+
+  "GOOGLE_WEB_CLIENT_ID": "416410601191-c0ki5vg8k6625c00oopdo6o5ljqcmfnl.apps.googleusercontent.com",
+  "GOOGLE_IOS_CLIENT_ID": "416410601191-k9q07mfp27rgi7if5hfd47g6vlruiq73.apps.googleusercontent.com",
+  "GOOGLE_ANDROID_CLIENT_ID": "416410601191-nlgct4simsjg62j8lniua669vavr5r4p.apps.googleusercontent.com"
+}
